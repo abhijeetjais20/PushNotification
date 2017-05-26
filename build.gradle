@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.0'
+        classpath 'com.google.gms:google-services:3.0.0'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+// https://www.youtube.com/watch?v=LiKCEa5_Cs8
+// https://console.firebase.google.com/project/pushnotification-142708/overview
+
+// Server key   AIzaSyDjg3pIdu8DLml_9oeZ0c6l-M7xhc3HIZk
+// Sender ID    859886116325
+
+
+// onesignal.com  Your App ID: 7cea4a8e-3920-414a-99c6-9f4b9e282bd5
